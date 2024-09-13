@@ -34,6 +34,25 @@ The project directory is organized as follows:
     - **`PPO_Atlantis_1MT.zip`**: Trained model saved after 1 million timesteps.
     - **`PPO_Atlantis_2MT.zip`**: Trained model saved after 2 million timesteps.
 
+## Usage
+
+1. **Jupyter Notebook**: Open and run the Jupyter notebook `Atlantis RL PCO .ipynb` to explore and execute the main code and experiments. You can interactively train, evaluate, and visualize the PPO agent's performance within the notebook.
+
+2. **Training the Model**: Inside the Jupyter notebook, you can find cells for training the PPO model. Execute these cells to train the model with the desired configurations. 
+
+3. **Evaluating the Model**: Similarly, use the evaluation cells in the notebook to assess the trained model's performance. You can visualize the results and analyze how well the model performs on the Atari Atlantis game.
+
+4. **Real-Time Playback**: To run the trained model in real-time and see the agent playing the game, you can add code within the notebook to load a saved model and render the gameplay.
+
+5. **Model Files**: After training, the model files will be saved in the `Training/Saved Models/` directory. You can use these files for later evaluation or real-time playback. The available models are:
+    - **`PPO_Atlantis_1MT.zip`**: Model trained for 1 million timesteps.
+    - **`PPO_Atlantis_2MT.zip`**: Model trained for 2 million timesteps.
+
+6. **Dependencies**: Install the required Python packages using the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 
 ## License
 
