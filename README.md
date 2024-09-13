@@ -19,3 +19,13 @@ This project involves training and evaluating a Proximal Policy Optimization (PP
 - Stable Baselines3
 - TensorBoard
 - Other dependencies can be installed via `requirements.txt`.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Stable Baselines3](https://stable-baselines3.readthedocs.io/en/master/)
+- [OpenAI Gym](https://www.gymlibrary.ml/)
