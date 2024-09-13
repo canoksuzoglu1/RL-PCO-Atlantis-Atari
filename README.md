@@ -21,6 +21,20 @@ This project involves training and evaluating a Proximal Policy Optimization (PP
 - Other dependencies can be installed via `requirements.txt`.
 
 
+## Project Structure
+
+The project directory is organized as follows:
+
+- **`Atlantis RL PCO .ipynb`**: Jupyter notebook containing the main code and experiments.
+- **`README.md`**: This file, providing an overview and instructions for the project.
+- **`requirements.txt`**: File listing the required Python packages.
+- **`Training/`**: Directory containing training logs and saved models.
+  - **`Logs/`**: Subdirectory for TensorBoard logs.
+  - **`Saved Models/`**: Subdirectory for storing trained models.
+    - **`PPO_Atlantis_1MT.zip`**: Trained model saved after 1 million timesteps.
+    - **`PPO_Atlantis_2MT.zip`**: Trained model saved after 2 million timesteps.
+
+
 ## License
 
 This project is licensed under the MIT License.
